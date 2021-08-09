@@ -1,0 +1,33 @@
+name: flutter_awesome_notifications_tutorial
+description: Flutter Local Notifications Tutorial.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  flutter_launcher_icons: ^0.9.1
+  font_awesome_flutter: ^9.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/app_icon.png"
+  adaptive_icon_background: "assets/app_icon_background.png"
+  adaptive_icon_foreground: "assets/app_icon_foreground.png"
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
